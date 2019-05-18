@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  color: #fff;
+  color: black;
   background-color: white;
   font-family: 'Oxygen', sans-serif;
 }
@@ -27,18 +27,15 @@ body {
   line-height: .75;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid red;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
 /* END HEADER */
+
+.row {
+	padding: 5px;
+}
 
 #Our-Menu {
 	text-align: center;
-	padding: 25px;
+	padding: 15px;
 	color:black;
 }
 
@@ -51,4 +48,8 @@ body {
   overflow: hidden;
   text-align: center;
   color: black;
+}
+
+.navbar-toggler {
+	background color:black;
 }
